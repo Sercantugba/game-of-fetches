@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './App.css';
+import Tyrell from './components/Tyrell'
 
 class App extends Component {
   constructor(props) {
@@ -15,6 +16,7 @@ class App extends Component {
     return (
       <div>
         <h1> Game of Thrones </h1>
+        <Tyrell />
       </div>
     )
   }
