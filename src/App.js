@@ -4,6 +4,7 @@ import Tyrell from './components/Tyrell'
 import Targaryen from './components/Targaryen'
 import Lannister from './components/Lannister'
 import Baratheon from './components/Baratheon'
+import Alias from './components/Alias'
 
 class App extends Component {
   constructor(props) {
@@ -23,6 +24,7 @@ class App extends Component {
         <Targaryen />
         <Lannister />
         <Baratheon />
+        <Alias />
       </div>
     )
   }
