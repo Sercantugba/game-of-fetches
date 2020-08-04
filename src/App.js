@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './App.css';
 import Tyrell from './components/Tyrell'
+import Targaryen from './components/Targaryen'
 
 class App extends Component {
   constructor(props) {
@@ -17,6 +18,7 @@ class App extends Component {
       <div>
         <h1> Game of Thrones </h1>
         <Tyrell />
+        <Targaryen />
       </div>
     )
   }

@@ -4,6 +4,9 @@
 h1{
   color: blue;
 }
+div{
+  text-align: center;
+}
 
 .App-logo {
   height: 40vmin;
