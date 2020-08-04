@@ -3,6 +3,7 @@ import './App.css';
 import Tyrell from './components/Tyrell'
 import Targaryen from './components/Targaryen'
 import Lannister from './components/Lannister'
+import Baratheon from './components/Baratheon'
 
 class App extends Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class App extends Component {
         <Tyrell />
         <Targaryen />
         <Lannister />
+        <Baratheon />
       </div>
     )
   }
